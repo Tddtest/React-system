@@ -6,8 +6,45 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.form-parent {
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  border-bottom: 1px solid #61dafb;
+}
+.login p, .register p {
+  margin: 20px;
+}
+.login p button, .register p button {
+  width: 100%;
+  cursor: pointer;
+}
+.login p span, .register p span {
+  display: inline-block;
+  width: 80px;
+}
+.app {
+
+}
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
 }
