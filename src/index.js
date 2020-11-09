@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Parent from './hooks/ref/forwardRef';
+import Ref2 from './hooks/ref/ref2';
+import UseEffectsss from './hooks/useEffect';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <UseEffectsss />,
   document.getElementById('root')
 );
 
