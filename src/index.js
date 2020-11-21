@@ -4,10 +4,17 @@ import App from './App';
 import Parent from './hooks/ref/forwardRef';
 import Ref2 from './hooks/ref/ref2';
 import UseEffectsss from './hooks/useEffect';
+import TestUseCallback from './hooks/useMemo-useCallback';
+import ClassComponent from './ClassComponent';
+import Test from './TestUseState';
+import LayoutEffect from './hooks/layout-effect';
+import Reducers from './hooks/reducer';
+import TodoList from './hooks/todo';
+
 import './index.css';
 
 ReactDOM.render(
-  <UseEffectsss />,
+  <TodoList />,
   document.getElementById('root')
 );
 
